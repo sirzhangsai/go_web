@@ -1,0 +1,30 @@
+cache: {
+# 通用的redis客户端，一般用于数据缓存
+    redis: {
+        host: 127.0.0.1,
+        port: 6379
+    },
+# php-sync-cache提供数据的redis客户端
+    sync: {
+        host: 127.0.0.1,
+        port: 6379
+    }
+}
+# 数据库配置
+dbs :
+    -
+        alias: 17zwdv3
+        type: mysql
+        server: amiba.io
+        port: 1477
+        database: 17zwdv3
+        user: root
+        password: QA2WXuY2VqQojOFz
+    -
+        alias: 17goodspack
+        type: mysql
+        server: amiba.io
+        port: 1477
+        database: 17zwdV3_Product
+        user: root
+        password: QA2WXuY2VqQojOFz
